@@ -1,7 +1,14 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",
     "paths": {
-      "@components/* @commons/* @hooks/* @layouts/* @services/* @styles/*": ["./src/*"]
+      "@components/*": ["components/*"],
+      "@common/*": ["common/*"],
+      "@hooks/*": ["hooks/*"],
+      "@layouts/*": ["layouts/*"],
+      "@services/*": ["services/*"],
+      "@styles/*": ["styles/*"],
+      "@app/*": ["app/*"],
     }
   }
 }
