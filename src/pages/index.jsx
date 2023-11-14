@@ -7,6 +7,8 @@ import CodeStar2 from "../assets/codeStar2.png";
 import CodeStarMobile2 from "../assets/codeStar2-mobile.png";
 import { useEffect, useState } from "react";
 import Container from "@common/container";
+import { FaCloudDownloadAlt } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Home() {
   const background = "-z-10 fixed";
@@ -55,6 +57,11 @@ export default function Home() {
         <p className="font-poppins font-thin mt-5 cursor-default">
           I am <b>Full-stack</b> developer in <b>Java</b> and <b>JavaScript</b>
         </p>
+        <Link
+          href={"https://drive.google.com/file/d/17jp_8P0beSxEAU7oFWf4WQi7GvG2CkIN/view?usp=drive_link"}
+          className="flex gap-2 justify-center items-center underline underline-offset-4 font-poppins  text-sm">
+          Download my CV
+        </Link>
       </div>
     </>
   );
