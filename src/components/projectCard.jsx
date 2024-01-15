@@ -15,6 +15,7 @@ export default function ProjectCard({
   userUrl,
   homePage,
   languagesUrl,
+  topics
 }) {
   const [languages, setLanguages] = useState([""]);
   const router = useRouter()
@@ -33,7 +34,7 @@ export default function ProjectCard({
   }
   return (
     <>
-        <div onClick={externalHandle} className="max-w-2xl min-h-full justify-between bg-gray-800 hover:bg-gray-700 p-5 rounded-xl flex flex-col gap-5 cursor-pointer duration-300">
+        <div onClick={externalHandle} className="max-w-2xl min-h-full justify-between bg-gray-800 hover:bg-gray-700 p-5 rounded-br-3xl rounded-tl-3xl flex flex-col gap-5 cursor-pointer duration-300">
           <div className="flex flex-col gap-5">
             <div className="flex justify-between gap-3">
               <span className="font-poppins font-semibold text-sm text-gray-400">
@@ -58,21 +59,28 @@ export default function ProjectCard({
                   {name}
                 </Link>
               </h1>
+              <div className="flex flex-wrap gap-3">
+                {Object.keys(languages)?.map((lang, index) => (
+                  <LanguageChip noText={true} key={index} language={lang} />
+                ))}
+              </div>
             </div>
             <div className="flex flex-col gap-1">
               <p className="font-poppins font-light text-sm text-gray-400">
                 {description}
               </p>
               <div className="flex flex-wrap gap-3">
-                {Object.keys(languages)?.map((lang, index) => (
-                  <LanguageChip key={index} language={lang} />
-                ))}
+                {
+                  topics.map((topic, index) => (
+                    <LanguageChip key={index} language={topic} />
+                  ))
+                }
               </div>
             </div>
           </div>
           <div className="flex gap-3 text-2xl">
             <Link href={`${link}`}>
-              <span className="text-sm flex items-center justify-center gap-2">
+              <span className="text-sm flex items-center justify-center gap-2 hover:text-beru-300 duration-300">
                 Go project <AiOutlineArrowRight />
               </span>
             </Link>

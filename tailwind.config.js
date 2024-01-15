@@ -7,12 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'beru-300':'#40aae7'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'code-star': "url('/assets/codeStar.png')",
-        'code-star-2': "url('/assets/codeStar2.png')",
+        codeStar: "url('https://raw.githubusercontent.com/BrandBeru/BrandBeru.github.io/main/src/assets/codeStar.png')",
       },
       fontFamily: {
         'poppins': ['Poppins']

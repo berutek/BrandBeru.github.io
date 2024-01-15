@@ -1,123 +1,133 @@
 [
   {
+    "name":"Cybersecurity Roles, Processes & Operating System Security",
+      "academy":"coursera",
+      "expedition":"Jan. 2024",
+      "learning":[
+        "Files System","Cybersecurity","Virtualization","Docker","Linux", "Windows", "Process Security","System Administration"
+      ],
+      "id":"https://www.credly.com/badges/92941f0b-dc71-4149-bfec-061a4cc19b5a/public_url",
+      "url":"https://www.coursera.org/account/accomplishments/verify/8HPQNTMQL7JY"
+  },
+  {
       "name":"Full Stack JavaScript Developer",
-      "academy":"platzi",
+      "academy":"Platzi",
       "expedition":"Nov. 2023",
       "learning":[
         "JavaScript","Node","React","Vite","TailwindCSS", "HTML", "CSS","PostgreSQL","API"
       ],
       "id":"b8944dd9-689b-448a-81bb-081d16c4e8b0",
-      "url":"https://platzi.com/p/Beru/ruta/7170-web-java/diploma/detalle/",
+      "url":"https://Platzi.com/p/Beru/ruta/7170-web-java/diploma/detalle/",
       "certificates": [
         {
           "name":"Frontend Developer Course",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Aug. 2023",
           "learning":[
             "HTML", "CSS"
           ],
           "id":"a4a0f6ab-1b20-41df-8ad0-3f0feefa3656",
-          "url":"https://platzi.com/p/Beru/curso/2467-frontend-developer/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/2467-frontend-developer/diploma/detalle/"
         },
         {
           "name":"JavaScript Basics",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Aug. 2023",
           "learning":[
             "JavaScript"
           ],
           "id":"19f09457-d127-4151-84fd-232c91a6a3b9",
-          "url":"https://platzi.com/p/Beru/curso/1814-basico-javascript/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/1814-basico-javascript/diploma/detalle/"
         },
         {
           "name":"Asynchronism with JavaScript",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Sep. 2023",
           "learning":[
             "JavaScript", "Node"
           ],
           "id":"f92e0eb9-7f71-4378-afae-889ba5b036e5",
-          "url":"https://platzi.com/p/Beru/curso/3175-asincronismo-js/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/3175-asincronismo-js/diploma/detalle/"
         },
         {
           "name":"React.js with Vite.js and TailwindCSS Course",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Oct. 2023",
           "learning":[
             "JavaScript","React","Vite","TailwindCSS"
           ],
           "id":"f48ad047-297b-4e26-8c1b-f456ca4bd60b",
-          "url":"https://platzi.com/p/Beru/curso/7396-react-vite-tailwindcss/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/7396-react-vite-tailwindcss/diploma/detalle/"
         },
         {
           "name":"Next.js Professional Course",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Oct. 2023",
           "learning":[
             "JavaScript","React","Next"
           ],
           "id":"b267bfc7-3ac3-48be-a40e-fde0649914ee",
-          "url":"https://platzi.com/p/Beru/curso/2707-profesional-nextjs/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/2707-profesional-nextjs/diploma/detalle/"
         },
         {
           "name":"Backend Development Introduction",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Sep. 2023",
           "learning":[
             "Theory"
           ],
           "id":"ef748d41-c6d9-476b-9a0d-020da8caab8b",
-          "url":"https://platzi.com/p/Beru/curso/4656-backend/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/4656-backend/diploma/detalle/"
         },
         {
           "name":"Databases Fundamentals",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Dec. 2022",
           "learning":[
             "Theory","SQL"
           ],
           "id":"756bc6a2-6aa0-482c-ace8-1679e53f8ddc",
-          "url":"https://platzi.com/p/Beru/curso/1566-bd/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/1566-bd/diploma/detalle/"
         },
         {
           "name":"Fundamentals of Node.js",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Oct. 2023",
           "learning":[
             "JavaScript","Node"
           ],
           "id":"516420a3-143a-4de1-be5c-8ed01b14bb34",
-          "url":"https://platzi.com/p/Beru/curso/1759-fundamentos-node/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/1759-fundamentos-node/diploma/detalle/"
         },
         {
           "name":"API REST with Express.js",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Oct. 2023",
           "learning":[
             "JavaScript","Node","Express"
           ],
           "id":"6da4a49a-b537-4061-9a58-4f75063f20ca",
-          "url":"https://platzi.com/p/Beru/curso/2485-backend-nodejs/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/2485-backend-nodejs/diploma/detalle/"
         },
         {
           "name":"Databases with PostgreSQL",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Nov. 2023",
           "learning":[
             "JavaScript","Node","Express", "PostgreSQL"
           ],
           "id":"e8afdf52-86ea-4b45-a989-76b93f800825",
-          "url":"https://platzi.com/p/Beru/curso/2507-backend-nodejs-postgres/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/2507-backend-nodejs-postgres/diploma/detalle/"
         },
         {
           "name":"Express.js Authentication with Passport.js and JWT",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Nov. 2023",
           "learning":[
             "JavaScript","Node","Express","Passport","JWT"
           ],
           "id":"07abbc14-7341-4cd2-96cb-f6a3a9ceda52",
-          "url":"https://platzi.com/p/Beru/curso/2489-passport/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/2489-passport/diploma/detalle/"
         }
       ]
   },
@@ -129,117 +139,117 @@
         "Java","Spring", "PostgreSQL", "MySQL","Kotlin","Android","API"
       ],
       "id":"8697b74f-0805-4b4b-9c56-f3d60ecff708",
-      "url":"https://platzi.com/p/Beru/ruta/7170-web-java/diploma/detalle/",
+      "url":"https://Platzi.com/p/Beru/ruta/7170-web-java/diploma/detalle/",
       "certificates": [
         {
           "name":"Java SE Introduction",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Nov. 2022",
           "learning":[
             "Java","Theory"
           ],
           "id":"a48e782b-ada8-45ef-8fea-7fb34c7631f4",
-          "url":"https://platzi.com/p/Beru/curso/1631-java-basico/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/1631-java-basico/diploma/detalle/"
         },
         {
           "name":"Java SE Object Oriented Programming",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Dec. 2022",
           "learning":[
             "Java"
           ],
           "id":"ed831ed2-6156-4d4e-9c8f-2de6b759c780",
-          "url":"https://platzi.com/p/Beru/curso/1629-java-oop/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/1629-java-oop/diploma/detalle/"
         },
         {
           "name":"Kotlin Basics",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Apr. 2023",
           "learning":[
             "Kotlin"
           ],
           "id":"97dc2b74-be68-4cc7-888e-1f0a63367dad",
-          "url":"https://platzi.com/p/Beru/curso/2245-kotlin/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/2245-kotlin/diploma/detalle/"
         },
         {
           "name":"Java SE Data Persistence",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Dec. 2022",
           "learning":[
             "Java", "MySQL"
           ],
           "id":"334d998f-4e23-4b90-94fc-a6c609d4d1ad",
-          "url":"https://platzi.com/p/Beru/curso/1760-java-persistencia/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/1760-java-persistencia/diploma/detalle/"
         },
         {
           "name":"PostgreSQL",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Nov. 2023",
           "learning":[
             "PostgreSQL"
           ],
           "id":"b8944dd9-689b-448a-81bb-081d16c4e8b0",
-          "url":"https://platzi.com/p/Beru/ruta/7170-web-java/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/ruta/7170-web-java/diploma/detalle/"
         },
         {
           "name":"Functional Programing with Java SE",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Nov. 2023",
           "learning":[
             "Java"
           ],
           "id":"571830b1-f6e8-4506-be09-bf729213a8c1",
-          "url":"https://platzi.com/p/Beru/curso/1826-java-funcional/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/1826-java-funcional/diploma/detalle/"
         },
         {
           "name":"Java SE Advanced",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Jun. 2023",
           "learning":[
             "Java"
           ],
           "id":"84a36962-83e7-45da-892f-89e47c95a613",
-          "url":"https://platzi.com/p/Beru/curso/1236-java-avanzado/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/1236-java-avanzado/diploma/detalle/"
         },
         {
           "name":"Java Spring Course",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Jun. 2023",
           "learning":[
             "Spring"
           ],
           "id":"4ad0280f-2580-47e8-b0b0-386f12fc731e",
-          "url":"https://platzi.com/p/Beru/curso/1996-java-spring/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/1996-java-spring/diploma/detalle/"
         },
         {
           "name":"Spring Data JPA Course",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Oct. 2023",
           "learning":[
             "Spring", "MySQL"
           ],
           "id":"9ffa87ed-6400-41fe-bc4d-78accae18b50",
-          "url":"https://platzi.com/p/Beru/curso/7825-java-spring-data/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/7825-java-spring-data/diploma/detalle/"
         },
         {
           "name":"Spring Security Course",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Oct. 2023",
           "learning":[
             "Spring", "JWT"
           ],
           "id":"a7180dd1-0af4-4806-92a9-86687c88fc30",
-          "url":"https://platzi.com/p/Beru/curso/7694-java-spring-security/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/7694-java-spring-security/diploma/detalle/"
         },
         {
           "name":"Interface Design with Android Studio",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Jun. 2023",
           "learning":[
             "Android", "Kotlin"
           ],
           "id":"5bc83e22-3caa-4964-b478-120f9660601b",
-          "url":"https://platzi.com/p/Beru/curso/1825-interfaces-android/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/1825-interfaces-android/diploma/detalle/"
         }
       ]
   },
@@ -251,7 +261,7 @@
         "CSS","HTML"
       ],
       "id":"a332fa1b-9c06-4a4b-812f-f5ed52c6bd25",
-      "url":"https://platzi.com/p/Beru/ruta/7040-web-frontend/diploma/detalle/"
+      "url":"https://Platzi.com/p/Beru/ruta/7040-web-frontend/diploma/detalle/"
   },
   {
       "name":"Programming and Web Development basics",
@@ -261,97 +271,97 @@
         "Git","Github","Linux","Terminal","Theory","API"
       ],
       "id":"c113fea2-7172-4f49-862f-80ced980ede7",
-      "url":"https://platzi.com/p/Beru/ruta/7039-web-fundamentos/diploma/detalle/",
+      "url":"https://Platzi.com/p/Beru/ruta/7039-web-fundamentos/diploma/detalle/",
       "certificates": [
         {
           "name":"Informatic and Computers Basics",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Sep. 2023",
           "learning":[
             "Theory"
           ],
           "id":"8f9f178c-23b0-446a-83d7-d147d6f389cd",
-          "url":"https://platzi.com/p/Beru/curso/2793-computacion-basica/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/2793-computacion-basica/diploma/detalle/"
         },
         {
           "name":"Algorithms and Flowcharts",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Sep. 2023",
           "learning":[
             "Theory"
           ],
           "id":"7cd72cb3-aadb-4e28-948c-820ba9cfaa49",
-          "url":"https://platzi.com/p/Beru/curso/3221-pensamiento-logico/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/3221-pensamiento-logico/diploma/detalle/"
         },
         {
           "name":"Functions and Control Structures",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Sep. 2023",
           "learning":[
             "Theory"
           ],
           "id":"11407ed3-5aab-4e43-9048-3bc7eb1cf438",
-          "url":"https://platzi.com/p/Beru/curso/3222-pensamiento-logico-estructuras/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/3222-pensamiento-logico-estructuras/diploma/detalle/"
         },
         {
           "name":"Programming Languages",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Sep. 2023",
           "learning":[
             "Python", "Theory"
           ],
           "id":"c279969f-01ae-452e-9b55-3aa365113004",
-          "url":"https://platzi.com/p/Beru/curso/3223-pensamiento-logico-lenguajes/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/3223-pensamiento-logico-lenguajes/diploma/detalle/"
         },
         {
           "name":"Programming Basics",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Sep. 2023",
           "learning":[
             "Theory"
           ],
           "id":"b8944dd9-689b-448a-81bb-081d16c4e8b0",
-          "url":"https://platzi.com/p/Beru/curso/3208-programacion-basica/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/3208-programacion-basica/diploma/detalle/"
         },
         {
           "name":"Python Fundamentals",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Sep. 2023",
           "learning":[
             "Python"
           ],
           "id":"ce4963d6-0953-4a5e-b48a-aabf8c4c3124",
-          "url":"https://platzi.com/p/Beru/curso/4227-python/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/4227-python/diploma/detalle/"
         },
         {
           "name":"Introduction to the Command line and Terminal",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Nov. 2022",
           "learning":[
             "Terminal", "Linux", "Theory"
           ],
           "id":"e2ddae69-24da-46f8-b4e9-fcc9a9a831d5",
-          "url":"https://platzi.com/p/Beru/curso/2292-terminal/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/2292-terminal/diploma/detalle/"
         },
         {
           "name":"Git and Github Professional",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"Mar. 2023",
           "learning":[
             "Git", "Github"
           ],
           "id":"16f5a1cf-dc7b-4bc0-b3ba-c799a40302c3",
-          "url":"https://platzi.com/p/Beru/curso/1557-git-github/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/1557-git-github/diploma/detalle/"
         },
         {
           "name":"Software Engineer Fundamentals",
-          "academy":"platzi",
+          "academy":"Platzi",
           "expedition":"May. 2023",
           "learning":[
             "Theory"
           ],
           "id":"63295233-0f9c-4eae-b366-87dc5f4c2be5",
-          "url":"https://platzi.com/p/Beru/curso/1098-ingenieria/diploma/detalle/"
+          "url":"https://Platzi.com/p/Beru/curso/1098-ingenieria/diploma/detalle/"
         }
       ]
   },
@@ -363,6 +373,6 @@
         "MySQL", "Theory"
       ],
       "id":"f632b84a-6f80-4aa6-80ed-06288610ee8a",
-      "url":"https://platzi.com/p/Beru/curso/4203-mysql-mariadb/diploma/detalle/"
+      "url":"https://Platzi.com/p/Beru/curso/4203-mysql-mariadb/diploma/detalle/"
   }
 ]

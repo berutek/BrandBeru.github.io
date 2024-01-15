@@ -50,6 +50,7 @@ export default function ProjectsPage() {
                 name={repo.name}
                 description={repo.description}
                 link={repo.html_url}
+                topics={repo.topics}
               />
             )
           )}

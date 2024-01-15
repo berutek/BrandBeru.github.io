@@ -7,20 +7,22 @@ import { useRouter } from "next/router";
 export default function Certification({name, academy, expedition, learning, id, url, certificates}) {
   const languages = [...learning];
   const router = useRouter()
+  const PlatziImageLink = 'https://d1qb2nb5cznatu.cloudfront.net/startups/i/228069-3505671d2fa91218bd7676733164afe9-medium_jpg.jpg?buster=1426816465'
+  const courseraImageLink = 'https://websta.me/wp-content/uploads/2021/05/1200px-Coursera-Logo_600x600.svg_-1024x1024.png'
   function externalHandle(event){
     router.push(certificates ? "/certificate/"+id : url)
   }
   return (
     <>
-      <div onClick={externalHandle} className="flex flex-col lg:flex-row lg:justify-between gap-3 w-full bg-gray-800 p-5 rounded-xl hover:bg-gray-700 duration-300 cursor-pointer">
+      <div onClick={externalHandle} className="flex flex-col lg:flex-row lg:justify-between gap-3 w-full bg-gray-800 p-5 rounded-tl-3xl rounded-br-3xl hover:bg-gray-700 duration-300 cursor-pointer">
         <div className="flex flex-col gap-3">
           <div className="flex justify-between gap-5 items-center">
             <div className="flex gap-3 items-center">
               <img
                 src={
-                  "https://d1qb2nb5cznatu.cloudfront.net/startups/i/228069-3505671d2fa91218bd7676733164afe9-medium_jpg.jpg?buster=1426816465"
+                  (academy === 'Platzi')?PlatziImageLink:courseraImageLink
                 }
-                className="rounded-lg max-w-24 w-24 max-h-24"
+                className="rounded-full max-w-24 w-24 max-h-24"
                 alt=""
               />
               <div className="flex flex-col">
@@ -62,7 +64,7 @@ export default function Certification({name, academy, expedition, learning, id, 
           href={`${url}`}
           className="flex gap-2 items-center text-2xl text-gray-500 hover:text-gray-400 duration-300"
         >
-          <span className="font-poppins text-sm">Show Credential</span>
+          <span className="font-poppins text-sm hover:text-beru-300 duration-300">Show Credential</span>
           <AiOutlineArrowRight />
         </Link>
       </div>
