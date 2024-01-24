@@ -1,7 +1,59 @@
 [
   {
+    "name":"Giovanny's HackerRank Certificates",
+      "academy":"HackerRank",
+      "expedition":"Jan. 2024",
+      "learning":[
+        "Java","JavaScript","MySQL","API","Problem Solving","Logic","Theory"
+      ],
+      "id":"b8944dd9-140206-448a-81bb-081d16c4e8b0",
+      "url":"https://www.hackerrank.com/certificates/b279c9585f5b",
+      "certificates":[
+        {
+          "name":"Software Engineer Intern",
+            "academy":"HackerRank",
+            "expedition":"Jan. 2024",
+            "learning":[
+              "Java","Theory","MySQL","API","Problem Solving","Logic"
+            ],
+            "id":"B279C9585F5B",
+            "url":"https://www.hackerrank.com/certificates/b279c9585f5b"
+        },
+        {
+          "name":"JavaScript Intermediate",
+            "academy":"HackerRank",
+            "expedition":"Jan. 2024",
+            "learning":[
+              "JavaScript","Theory","Problem Solving","Logic"
+            ],
+            "id":"220F4A3ABDA9",
+            "url":"https://www.hackerrank.com/certificates/220f4a3abda9"
+        },
+        {
+          "name":"Java Basic",
+            "academy":"HackerRank",
+            "expedition":"Jan. 2024",
+            "learning":[
+              "Java","Problem Solving","Logic"
+            ],
+            "id":"E4F750BEDF1B",
+            "url":"https://www.hackerrank.com/certificates/e4f750bedf1b"
+        },
+        {
+          "name":"SQL Basic",
+            "academy":"HackerRank",
+            "expedition":"Jan. 2024",
+            "learning":[
+              "MySQL","Problem Solving","Logic"
+            ],
+            "id":"33165757A1EC",
+            "url":"https://www.hackerrank.com/certificates/33165757a1ec"
+        }
+      ]
+  },
+  {
     "name":"Cybersecurity Roles, Processes & Operating System Security",
-      "academy":"coursera",
+      "academy":"Coursera",
       "expedition":"Jan. 2024",
       "learning":[
         "Files System","Cybersecurity","Virtualization","Docker","Linux", "Windows", "Process Security","System Administration"
@@ -374,5 +426,15 @@
       ],
       "id":"f632b84a-6f80-4aa6-80ed-06288610ee8a",
       "url":"https://Platzi.com/p/Beru/curso/4203-mysql-mariadb/diploma/detalle/"
+  },
+  {
+    "name":"MongoDB Fundamentals",
+      "academy":"Platzi",
+      "expedition":"Nov, 2023",
+      "learning":[
+        "MongoDB", "Theory"
+      ],
+      "id":"645de690-5304-4d18-9358-9bb57b0615cb",
+      "url":"https://platzi.com/p/Beru/curso/4987-mongodb/diploma/detalle/"
   }
 ]

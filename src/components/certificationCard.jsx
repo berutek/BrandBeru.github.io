@@ -3,12 +3,12 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import { FiExternalLink } from "react-icons/fi";
 import LanguageChip from "./languageChip";
 import { useRouter } from "next/router";
+import jsonAcademies from '@app/academies.json'
 
 export default function Certification({name, academy, expedition, learning, id, url, certificates}) {
   const languages = [...learning];
   const router = useRouter()
-  const PlatziImageLink = 'https://d1qb2nb5cznatu.cloudfront.net/startups/i/228069-3505671d2fa91218bd7676733164afe9-medium_jpg.jpg?buster=1426816465'
-  const courseraImageLink = 'https://websta.me/wp-content/uploads/2021/05/1200px-Coursera-Logo_600x600.svg_-1024x1024.png'
+
   function externalHandle(event){
     router.push(certificates ? "/certificate/"+id : url)
   }
@@ -20,7 +20,7 @@ export default function Certification({name, academy, expedition, learning, id, 
             <div className="flex gap-3 items-center">
               <img
                 src={
-                  (academy === 'Platzi')?PlatziImageLink:courseraImageLink
+                  jsonAcademies.find(data => data.name === academy).link
                 }
                 className="rounded-full max-w-24 w-24 max-h-24"
                 alt=""
