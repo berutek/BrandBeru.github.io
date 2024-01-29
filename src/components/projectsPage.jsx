@@ -4,16 +4,22 @@ import Nav from "@common/nav";
 import ProjectCard from "@components/projectCard";
 import { endPoints } from "@services/api";
 import axios from "axios";
+import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import Profile from "./ProfileCard";
 
 export default function ProjectsPage() {
   const [repositories, setRepositories] = useState([]);
 
+  const router = useRouter()
+
   useEffect(() => {
+    if(!router.isReady){
+      return;
+    }
+    const {id} = router.query
     async function github() {
       const response = await (
-        await axios.get(endPoints.github.getRepositories)
+        await axios.get(endPoints.github[id])
       ).data;
 
       const sortArray = response.sort(function (a, b) {
@@ -22,10 +28,10 @@ export default function ProjectsPage() {
       setRepositories(sortArray);
     }
     github();
-  }, []);
+  }, [router.isReady]);
   return (
     <>
-      <Nav />
+      <Nav back={"/accounts"} />
       <Container>
         <Header
           title={"Projects"}
@@ -33,10 +39,8 @@ export default function ProjectsPage() {
             "Some of the projects are from work and some are on my own time."
           }
         />
-        <div className="py-12 w-full">
-          <Profile />
-        </div>
-        <div className="flex flex-wrap gap-5 justify-center items-center">
+
+        <div className="flex flex-wrap gap-5 justify-center items-center mt-10">
           {repositories?.map((repo, index) =>
             (
               <ProjectCard
