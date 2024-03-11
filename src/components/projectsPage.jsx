@@ -18,11 +18,11 @@ export default function ProjectsPage() {
     }
     const {id} = router.query
     async function github() {
-      const response = await (
-        await axios.get(endPoints.github[id])
-      ).data;
+      const {data} = await axios.get(endPoints.github[id])
 
-      const sortArray = response.sort(function (a, b) {
+      console.log(data)
+
+      const sortArray = data?.sort(function (a, b) {
         return new Date(a?.updated_at) > new Date(b?.updated_at) ? -1 : 1;
       });
       setRepositories(sortArray);

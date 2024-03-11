@@ -10,8 +10,8 @@ export default function Profile({url}) {
   const [profile, setProfile] = useState({})
   useEffect(() => {
     async function getProfile(){
-      const prof = await (await axios.get(url)).data
-      setProfile(prof)
+      const {data} = await  axios.get(url)
+      setProfile(data)
     }
     getProfile()
   }, [])

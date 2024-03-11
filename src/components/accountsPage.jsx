@@ -18,9 +18,8 @@ export default function AccountPage(){
       <div className="py-12 w-full flex flex-wrap gap-5 justify-center items-center">
             <Profile url={endPoints.github.user} />
             <hr className="text-beru-300 h-full w-full lg:w-1 lg:h-fit" />
-            <Profile url={endPoints.github.pnova} />
-            <hr className="text-beru-300 h-full w-full lg:w-1 lg:h-fit" />
-            <Profile url={endPoints.github.jg} />
+            
+            <Profile url={endPoints.github.migion} />
       </div>
       </Container>
     </>
