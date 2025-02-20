@@ -1,6 +1,6 @@
 export const endPoints = {
   github: {
-    BrandBeru: 'https://api.github.com/users/giobero1402/repos',
+    giobero1402: 'https://api.github.com/users/giobero1402/repos',
     user: 'https://api.github.com/users/giobero1402',
     pnova: 'https://api.github.com/users/PNOVA-VIGE-STUDIOS',
     'PNOVA-VIGE-STUDIOS': 'https://api.github.com/orgs/PNOVA-VIGE-STUDIOS/repos',
