@@ -91,7 +91,7 @@ export default function Home() {
           <b className=" hover:text-orange-500 duration-500">{" JavaScript "}</b>
         </p>
         <Link
-          href={"https://drive.google.com/file/d/15lZWnwFuHnFvcG_x7C3dudKZ-aycfVTm/view?usp=sharing"}
+          href={"https://drive.google.com/file/d/1-ooraK3CM7ShVFX4xxci1K7kFN0HoGAS/view?usp=sharing"}
           className="flex gap-2 justify-center items-center underline underline-offset-4 font-poppins  text-sm hover:text-beru-300 duration-300">
           Download my CV
         </Link>
