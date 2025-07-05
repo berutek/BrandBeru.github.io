@@ -14,8 +14,8 @@ export default function ContactPage(){
         <Header title={"Contact"} description={"My social networks and contact ways"} />
         <div className="py-8 flex flex-wrap gap-14 justify-center items-center">
           <ContactCard url={"https://t.me/brandberu"} icon={<FaTelegram />} title={"@brandberu"} platform={"Telegram"} />
-          <ContactCard url={"mailto:brand.beru@gmail.com"} icon={<MdOutlineAlternateEmail />} title={"brand.beru@gmail.com"} platform={"Email"} />
-          <ContactCard url={"https://www.linkedin.com/in/brandberu"} icon={<AiFillLinkedin />} title={"Giovanny Bernal"} platform={"Linkedin"} />
+          <ContactCard url={"mailto:brandberu@hotmail.com"} icon={<MdOutlineAlternateEmail />} title={"brandberu@hotmail.com"} platform={"Email"} />
+          <ContactCard url={"https://www.linkedin.com/in/giovanny-bernal-aa07b3341/"} icon={<AiFillLinkedin />} title={"Giovanny Bernal"} platform={"Linkedin"} />
           <ContactCard url={"https://msng.link/o?brand.beru@gmail.com=sk"} icon={<AiFillSkype />} title={"Giovanny Bernal"} platform={"Skype"} />
           <ContactCard url={"https://wa.link/j3qak8"} icon={<MdOutlineWhatsapp />} title={"BrandBeru"} platform={"Whatsapp"} />
         </div>
