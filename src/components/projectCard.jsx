@@ -34,7 +34,7 @@ export default function ProjectCard({
   }
   return (
     <>
-        <div onClick={externalHandle} className="max-w-2xl min-h-full justify-between bg-gray-800 hover:bg-gray-700 p-5 rounded-br-3xl rounded-tl-3xl flex flex-col gap-5 cursor-pointer duration-300">
+        <div onClick={externalHandle} className="max-w-2xl min-h-full justify-between bg-gray-800 hover:bg-gray-700 p-5 rounded-br-3xl rounded-tl-3xl flex flex-col gap-5 cursor-pointer  opacity-0 animate-fade-in transition-opacity duration-400">
           <div className="flex flex-col gap-5">
             <div className="flex justify-between gap-3">
               <span className="font-poppins font-semibold text-sm text-gray-400">

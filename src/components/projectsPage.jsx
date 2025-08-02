@@ -40,8 +40,8 @@ export default function ProjectsPage() {
           }
         />
 
-        <div className="flex flex-wrap gap-5 justify-center items-center mt-10">
-          {repositories?.map((repo, index) =>
+        <div className="flex flex-wrap gap-5 justify-center items-center mt-10 opacity-0 animate-fade-in transition-opacity duration-400">
+          {repositories?.filter((repo) => repo.name !== 'BrandBeru.github.io' && repo.name !== 'berutek')?.map((repo, index) =>
             (
               <ProjectCard
                 key={index}

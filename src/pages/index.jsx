@@ -65,7 +65,7 @@ export default function Home() {
         alt=""
         id="background-1"
       />
-      <div className="w-full h-screen flex flex-col justify-center items-center gap-5">
+      <div className="w-full h-screen flex flex-col justify-center items-center gap-8  opacity-0 animate-fade-in transition-opacity duration-400">
         <Menu />
         <div className="flex flex-col gap-0 lg:flex-row lg:gap-10">
           <h1 id="giovanny" className="font-poppins w-full font-bold text-6xl lg:text-9xl text-center cursor-default text-beru-300 hover:text-white duration-300">
@@ -79,16 +79,16 @@ export default function Home() {
           <a href="https://oracle.com/java">
             <FaJava className="hover:text-red-500 duration-300" /></a>
           <h2 className="font-poppins font-semibold text-2xl lg:text-3xl cursor-default">
-            BrandBeru
+            BeruTek
           </h2>
           <a href="https://nodejs.org">
             <SiNodedotjs className="hover:text-green-500 duration-300" /></a>
         </div>
-        <p className="font-poppins font-thin mt-5 text-center cursor-default">
-          I am <b className=" hover:text-beru-300 duration-500">Full-stack</b> developer in
-          <b className=" hover:text-red-500 duration-500">{" Java "}</b>
+        <p className="font-poppins font-extralight text-center cursor-default">
+          I am <b className=" hover:text-blue-50 duration-500 text-blue-300">Full-stack</b> developer in
+          <b className=" hover:text-red-50 duration-500 text-red-500">{" Java "}</b>
           and
-          <b className=" hover:text-orange-500 duration-500">{" JavaScript "}</b>
+          <b className=" hover:text-orange-50 duration-500 text-orange-500">{" JavaScript "}</b>
         </p>
         <Link
           href={"https://drive.google.com/file/d/1-ooraK3CM7ShVFX4xxci1K7kFN0HoGAS/view?usp=sharing"}

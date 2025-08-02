@@ -17,7 +17,7 @@ export default function Profile({url}) {
   }, [])
   return (
     <>
-      <div className="flex flex-col justify-center items-center gap-3 w-80">
+      <div className="flex flex-col justify-center items-center gap-3 w-80  opacity-0 animate-fade-in transition-opacity duration-400">
         <div className="relative">
           <img src={profile?.avatar_url} alt="Giovanny Bernal projects profile" className="max-w-48 w-48 max-h-48 rounded-full" />
           <div className="w-48 h-48 blur-3xl flex flex-col gap-1 cursor-pointer justify-center items-center hover:blur-0 hover:bg-black/70 duration-300 absolute top-0">

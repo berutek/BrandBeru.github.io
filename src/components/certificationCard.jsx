@@ -14,7 +14,7 @@ export default function Certification({name, academy, expedition, learning, id, 
   }
   return (
     <>
-      <div onClick={externalHandle} className="flex flex-col lg:flex-row lg:justify-between gap-3 w-full bg-gray-800 p-5 rounded-tl-3xl rounded-br-3xl hover:bg-gray-700 duration-300 cursor-pointer">
+      <div onClick={externalHandle} className="flex flex-col lg:flex-row lg:justify-between gap-3 w-full bg-gray-800 p-5 rounded-tl-3xl rounded-br-3xl hover:bg-gray-700 cursor-pointer opacity-0 animate-fade-in transition-opacity duration-400">
         <div className="flex flex-col gap-3">
           <div className="flex justify-between gap-5 items-center">
             <div className="flex gap-3 items-center">
